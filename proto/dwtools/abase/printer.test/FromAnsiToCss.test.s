@@ -65,7 +65,7 @@ function trivial( test )
 var Proto =
 {
 
-  name : 'Tools/base/printer/ForBrowser',
+  name : 'Tools.base.printer.ForBrowser',
   silencing : 1,
 
   tests :
