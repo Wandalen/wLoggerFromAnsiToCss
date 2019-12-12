@@ -1,6 +1,6 @@
 {
   "name" : "wloggerfromansitocss", 
-  "version" : "0.4.115", 
+  "version" : "0.4.116", 
   "engine" : "node >= 8.0.0", 
   "description" : "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.", 
   "author" : "Kostiantyn Wandalen <wanalen@willbe.so>", 
@@ -24,13 +24,13 @@
   }, 
   "dependencies" : 
   {
-    "wFiles" : "alpha", 
-    "wLogger" : "alpha", 
-    "wTools" : "alpha", 
+    "wFiles" : "beta", 
+    "wLogger" : "beta", 
+    "wTools" : "beta", 
     "ansicolor" : "1.1.92", 
     "has-ansi" : "4.0.0"
   }, 
-  "devDependencies" : { "wTesting" : "alpha" }, 
+  "devDependencies" : { "wTesting" : "beta" }, 
   "keywords" : 
   [
     "wTools", 
