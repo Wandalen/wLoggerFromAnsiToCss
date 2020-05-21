@@ -2,7 +2,7 @@
 about :
 
   name : 'wLoggerFromAnsiToCss'
-  description : 'Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.'
+  description : "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console."
   version : '0.5.1'
   enabled : 1
   interpreters :
@@ -23,8 +23,8 @@ path :
 
   repository : git+https:///github.com/Wandalen/wLoggerFromAnsiToCss.git
   origins :
-   - git+https:///github.com/Wandalen/wLoggerFromAnsiToCss.git
-   - npm:///wloggerfromansitocss
+   - 'git+https:///github.com/Wandalen/wLoggerFromAnsiToCss.git'
+   - 'npm:///wloggerfromansitocss'
   bugtracker : https:///github.com/Wandalen/wLoggerFromAnsiToCss/issues
 
 step :
@@ -89,57 +89,3 @@ build :
       # - build::npm
       - build::proto.export
       # - build::doc.export
-
-#
-#
-# about :
-#
-#   name : "wLoggerFromAnsiToCss"
-#   description : "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console."
-#   version : "0.4.75"
-#   enabled : 1
-#   interpreters :
-#   - nodejs >= 8.0.0
-#   - chrome >= 60.0.0
-#   - firefox >= 60.0.0
-#   keywords :
-#   - wTools
-#
-# # execution :
-# #
-# # scripts :
-# # test : wtest .run proto/**
-# # docgen : wdocgen staging
-# #
-# path :
-#
-#   repository : git+https:///github.com/Wandalen/wLoggerFromAnsiToCss.git
-#   origins :
-#    - git+https:///github.com/Wandalen/wLoggerFromAnsiToCss.git
-#    - npm:///wloggerfromansitocss
-#   bugs : https:///github.com/Wandalen/wLoggerFromAnsiToCss/issues
-#
-# step :
-#
-#   export.proto :
-#     inherit : module.export
-#     export : path::export
-#     tar : 0
-#     criterion :
-#       debug : 1
-#       proto : 1
-#
-# build :
-#
-#   proto.export :
-#     criterion :
-#       default : 1
-#       debug : 1
-#       raw : 1
-#       proto : 1
-#       export : 1
-#       tar : 1
-#       public : 1
-#     steps :
-#       - build::debug.raw
-#       - step::export.proto
