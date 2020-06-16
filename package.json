@@ -1,7 +1,7 @@
 {
   "name" : "wloggerfromansitocss",
   "version" : "0.4.197",
-  "engine" : "node >= 8.0.0",
+  "engine" : "node >= 10.0.0",
   "description" : "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
   "contributors" :
