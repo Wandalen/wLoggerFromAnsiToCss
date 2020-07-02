@@ -5,7 +5,7 @@
 if( typeof module !== 'undefined' )
 {
 
-  require( '../../l9/printer/top/FromAnsiToCss.s' );
+  require( '../../l9/logger/FromAnsiToCss.s' );
 
   var _ = _global_.wTools;
 

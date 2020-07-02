@@ -7,10 +7,6 @@
   @module Tools/base/printer/FromAnsiToCss
 */
 
-/**
- * @file printer/FromAnsiToCss.s
- */
-
 if( typeof module !== 'undefined' )
 {
 
@@ -19,8 +15,8 @@ if( typeof module !== 'undefined' )
   _.include( 'wLogger' );
   _.include( 'wFiles' );
 
-  var AnsiColor = require( 'ansicolor' );
-  var HasAnsi = require( 'has-ansi' );
+  let AnsiColor = require( 'ansicolor' );
+  let HasAnsi = require( 'has-ansi' );
 
   /* qqq : removed this dependencies */
 
@@ -28,10 +24,10 @@ if( typeof module !== 'undefined' )
 
 //
 
-var _global = _global_;
-var _ = _global_.wTools;
-var Parent = _.PrinterTop;
-var Self = function wLoggerFromAnsiToCss( o )
+let _global = _global_;
+let _ = _global_.wTools;
+let Parent = _.LoggerTop;
+let Self = function wLoggerFromAnsiToCss( o )
 {
   return _.workpiece.construct( Self, this, arguments );
 }
@@ -42,7 +38,7 @@ Self.shortName = 'LoggerFromAnsiToCss';
 
 function init( o )
 {
-  var self = this;
+  let self = this;
 
   Parent.prototype.init.call( self,o );
 
@@ -53,7 +49,7 @@ function init( o )
 
 function _transformEnd( o )
 {
-  var self = this;
+  let self = this;
 
   _.assert( arguments.length === 1, 'Expects single argument' );
 
@@ -110,15 +106,15 @@ let ColorsMap =
 // relations
 // --
 
-var Composes =
+let Composes =
 {
 }
 
-var Aggregates =
+let Aggregates =
 {
 }
 
-var Associates =
+let Associates =
 {
 }
 
@@ -126,7 +122,7 @@ var Associates =
 // prototype
 // --
 
-var Proto =
+let Proto =
 {
 
   init,

@@ -160,7 +160,7 @@ module:
           - ../proto/dwtools/abase
           - ../proto/dwtools/abase/printer
           - ../proto/dwtools/abase/printer/top
-          - ../proto/dwtools/abase/printer/top/FromAnsiToCss.s
+          - ../proto/dwtools/amid/l1_logger/FromAnsiToCss.s
           - ../proto/dwtools/abase/printer.test
           - ../proto/dwtools/abase/printer.test/FromAnsiToCss.test.s
           - ../proto/dwtools/amid
