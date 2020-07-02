@@ -158,12 +158,11 @@ module:
           - ../proto/dwtools
           - ../proto/dwtools/Tools.s
           - ../proto/dwtools/abase
-          - ../proto/dwtools/abase/printer
-          - ../proto/dwtools/abase/printer/top
-          - ../proto/dwtools/amid/l1_logger/FromAnsiToCss.s
-          - ../proto/dwtools/abase/printer.test
-          - ../proto/dwtools/abase/printer.test/FromAnsiToCss.test.s
           - ../proto/dwtools/amid
+          - ../proto/dwtools/amid/l1_logger.test
+          - ../proto/dwtools/amid/l1_logger.test/FromAnsiToCss.test.s
+          - ../proto/dwtools/amid/l1_logger.test/l1_logger
+          - ../proto/dwtools/amid/l1_logger.test/l1_logger/FromAnsiToCss.s
           - ../proto/dwtools/atop
     submodule: {}
     reflector:
@@ -1474,6 +1473,4 @@ module:
       ../.im.will.yml:
         hash: efb358407ee8871ffecf8ba8291517eb
         size: 4869
-      wLoggerFromAnsiToCss.out.will.yml:
-        hash: 760dd644ff99214e8dacf317ed391112
-        size: 37957
+      wLoggerFromAnsiToCss.out.will.yml: *ref_0
