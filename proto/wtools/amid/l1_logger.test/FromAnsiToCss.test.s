@@ -7,15 +7,15 @@ if( typeof module !== 'undefined' )
 
   require( '../../l9/logger/FromAnsiToCss.s' );
 
-  var _ = _global_.wTools;
+  let _ = _global_.wTools;
 
   _.include( 'wTesting' );
 
 }
 
-var _ = _global_.wTools;
-var Parent = wTools.Testing;
-var Self = {};
+let _ = _global_.wTools;
+let Parent = wTools.Testing;
+let Self = {};
 
 //
 

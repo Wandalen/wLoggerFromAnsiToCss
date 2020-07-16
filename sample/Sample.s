@@ -1,7 +1,7 @@
 if( typeof module !== 'undefined' )
 require( '..' );
 
-var _ = wTools;
+let _ = wTools;
 var logger = new _.LoggerFromAsciiToCss({ output : console });
 
 logger.log( _.color.strFormatForeground( 'text', 'red' ) );
