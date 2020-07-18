@@ -11,7 +11,7 @@ npm install wloggerfromasciitocss
 ##### Example #1
 ```javascript
 var l = new _.LoggerFromAsciiToCss({ output : console });
-l.log( _.color.strFormatForeground( 'text', 'red' ) );
+l.log( _.ct.fg( 'text', 'red' ) );
 // %ctext color:rgba(255,51,0,1);
 ```
 
