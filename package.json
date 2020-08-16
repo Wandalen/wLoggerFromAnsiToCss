@@ -1,1 +1,48 @@
-{"name":"wloggerfromansitocss","version":"0.4.212","engine":"node >= 10.0.0","description":"Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.","author":"Kostiantyn Wandalen <wanalen@01.school>","contributors":[{"name":"Kostiantyn Wandalen","email":"wanalen@01.school"},{"name":"Volodymyr M.","email":"volodymyr.migdal@gmail.com"}],"license":"MIT","main":"proto/wtools/amid/l1_logger/FromAnsiToCss.s","files":["proto/wtools/amid/l1_logger","proto/wtools/Tools.s","out"],"scripts":{"test":"wtest .run 'proto/**' rapidity:-3","docgen":"wdocgen proto"},"repository":{"type":"git","url":"https://github.com/Wandalen/wLoggerFromAnsiToCss.s.git"},"bugs":{"url":"https://github.com/Wandalen/wLoggerFromAnsiToCss.s/issues"},"dependencies":{"wFiles":"alpha","wLogger":"alpha","wTools":"alpha","ansicolor":"1.1.93","has-ansi":"4.0.0"},"devDependencies":{"wTesting":"alpha"},"keywords":["wTools","logger","logging","log","colorful log","ansi styles","ansi colors","ansi colors in browser","multilevel log","colors","color"]}
+{
+  "name" : "wloggerfromansitocss",
+  "version" : "0.4.213",
+  "engine" : "node >= 10.0.0",
+  "description" : "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.",
+  "author" : "Kostiantyn Wandalen <wanalen@01.school>",
+  "contributors" :
+  [
+    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@01.school" },
+    { "name" : "Volodymyr M.", "email" : "volodymyr.migdal@gmail.com" }
+  ],
+  "license" : "MIT",
+  "main" : "proto/wtools/amid/l1_logger/FromAnsiToCss.s",
+  "files" : [ "proto/wtools/amid/l1_logger", "proto/wtools/Tools.s", "out" ],
+  "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/Wandalen/wLoggerFromAnsiToCss.s.git"
+  },
+  "bugs" :
+  {
+    "url" : "https://github.com/Wandalen/wLoggerFromAnsiToCss.s/issues"
+  },
+  "dependencies" :
+  {
+    "wFiles" : "alpha",
+    "wLogger" : "alpha",
+    "wTools" : "alpha",
+    "ansicolor" : "1.1.93",
+    "has-ansi" : "4.0.0"
+  },
+  "devDependencies" : { "wTesting" : "alpha" },
+  "keywords" :
+  [
+    "wTools",
+    "logger",
+    "logging",
+    "log",
+    "colorful log",
+    "ansi styles",
+    "ansi colors",
+    "ansi colors in browser",
+    "multilevel log",
+    "colors",
+    "color"
+  ]
+}
