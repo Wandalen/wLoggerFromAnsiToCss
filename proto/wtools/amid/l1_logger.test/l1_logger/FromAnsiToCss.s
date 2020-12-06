@@ -60,13 +60,13 @@ function _transformEnd( o )
   if( !o )
   return;
 
-  _.assert( _.arrayIs( o.outputForTerminal ) );
-  _.assert( o.outputForTerminal.length === 1 );
+  _.assert( _.arrayIs( o._outputForTerminal ) );
+  _.assert( o._outputForTerminal.length === 1 );
 
-  if( HasAnsi( o.outputForTerminal[ 0 ] ) )
+  if( HasAnsi( o._outputForTerminal[ 0 ] ) )
   {
-    o.ansiOutputParsed = AnsiColor.parse( o.outputForTerminal[ 0 ] );
-    o.outputForTerminal = o.ansiOutputParsed.asChromeConsoleLogArguments;
+    o.ansiOutputParsed = AnsiColor.parse( o._outputForTerminal[ 0 ] );
+    o._outputForTerminal = o.ansiOutputParsed.asChromeConsoleLogArguments;
   }
 
   /*  */
