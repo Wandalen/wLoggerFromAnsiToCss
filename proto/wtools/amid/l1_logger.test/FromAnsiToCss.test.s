@@ -1,11 +1,13 @@
-( function _FromAnsiToCss_test_s_( ) {
+( function _FromAnsiToCss_test_s_( )
+{
 
 'use strict';
 
 if( typeof module !== 'undefined' )
 {
 
-  require( '../../l9/logger/FromAnsiToCss.s' );
+  // require( '../../l9/logger/FromAnsiToCss.s' );
+  require( '../l1_logger/FromAnsiToCss.s' );
 
   let _ = _global_.wTools;
 
@@ -24,8 +26,7 @@ function trivial( test )
   let self = this;
 
   var got;
-  let onTransformEnd = function( o ){ got = o };
-  let logger = new _.LoggerFromAnsiToCss({ output : null, onTransformEnd });
+  let logger = new _.LoggerFromAnsiToCss({ output : console, onTransformEnd });
 
   test.case = 'simple text without styles';
   var src = 'text'
@@ -58,6 +59,10 @@ function trivial( test )
   ]
   test.identical( got._outputForTerminal, expected );
 
+  /* - */
+
+  function onTransformEnd( o ){ got = o };
+
 }
 
 //
@@ -78,7 +83,7 @@ var Proto =
 
 //
 
-_.mapExtend( Self,Proto );
+_.mapExtend( Self, Proto );
 Self = wTestSuite( Self );
 if( typeof module !== 'undefined' && !module.parent )
 wTester.test( Self.name );
