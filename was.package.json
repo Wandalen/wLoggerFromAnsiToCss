@@ -30,7 +30,7 @@
     "ansicolor" : "",
     "has-ansi" : ""
   },
-  "devDependencies" : { "wTesting" : "" },
+  "devDependencies" : { "wTesting" : "", "eslint" : "7.1.0", "wloggerfromansitocss" : "file:." },
   "keywords" :
   [
     "wTools",

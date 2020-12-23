@@ -1,8 +1,8 @@
 if( typeof module !== 'undefined' )
-require( '..' );
+var LoggerFromAsciiToCss = require( 'wloggerfromansitocss' );
 
 let _ = wTools;
-var logger = new _.LoggerFromAsciiToCss({ output : console });
+var logger = new LoggerFromAsciiToCss({ output : console });
 
 logger.log( _.ct.fg( 'text', 'red' ) );
 
