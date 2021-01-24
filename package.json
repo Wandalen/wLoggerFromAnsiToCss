@@ -1,38 +1,50 @@
 {
-  "name" : "wloggerfromansitocss",
-  "version" : "0.4.238",
-  "engine" : "node >= 10.0.0",
-  "description" : "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.",
-  "author" : "Kostiantyn Wandalen <wanalen@01.school>",
-  "contributors" :
-  [
-    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@01.school" },
-    { "name" : "Volodymyr M.", "email" : "volodymyr.migdal@gmail.com" }
+  "name": "wloggerfromansitocss",
+  "version": "0.4.239",
+  "engine": "node >= 10.0.0",
+  "description": "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.",
+  "author": "Kostiantyn Wandalen <wanalen@01.school>",
+  "contributors": [
+    {
+      "name": "Kostiantyn Wandalen",
+      "email": "wanalen@01.school"
+    },
+    {
+      "name": "Volodymyr M.",
+      "email": "volodymyr.migdal@gmail.com"
+    }
   ],
-  "license" : "MIT",
-  "main" : "proto/wtools/amid/l1_logger/FromAnsiToCss.s",
-  "files" : [ "proto/wtools/amid/l1_logger", "proto/wtools/Tools.s", "out" ],
-  "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/Wandalen/wLoggerFromAnsiToCss.s.git"
+  "license": "MIT",
+  "main": "proto/wtools/amid/l1_logger/FromAnsiToCss.s",
+  "files": [
+    "proto/wtools/amid/l1_logger",
+    "proto/wtools/Tools.s",
+    "out"
+  ],
+  "scripts": {
+    "test": "wtest .run 'proto/**' rapidity:-3",
+    "docgen": "wdocgen proto"
   },
-  "bugs" :
-  {
-    "url" : "https://github.com/Wandalen/wLoggerFromAnsiToCss.s/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/wLoggerFromAnsiToCss.s.git"
   },
-  "dependencies" :
-  {
-    "wFiles" : "alpha",
-    "wLogger" : "alpha",
-    "wTools" : "alpha",
-    "ansicolor" : "1.1.93",
-    "has-ansi" : "4.0.0"
+  "bugs": {
+    "url": "https://github.com/Wandalen/wLoggerFromAnsiToCss.s/issues"
   },
-  "devDependencies" : { "eslint" : "7.1.0", "wloggerfromansitocss" : "file:.", "wTesting" : "alpha" },
-  "keywords" :
-  [
+  "dependencies": {
+    "wFiles": "alpha",
+    "wLogger": "alpha",
+    "wTools": "alpha",
+    "ansicolor": "1.1.93",
+    "has-ansi": "4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "7.1.0",
+    "wTesting": "alpha",
+    "wloggerfromansitocss": "file:."
+  },
+  "keywords": [
     "wTools",
     "logger",
     "logging",
