@@ -81,28 +81,28 @@ function _transformEnd( o )
 
 let ColorsMap =
 {
-  black :        [ 0,     0,   0 ],
+  black :        [ 0, 0, 0 ],
   darkGray :     [ 100, 100, 100 ],
   lightGray :    [ 200, 200, 200 ],
   white :        [ 255, 255, 255 ],
 
-  red :          [ 255,   0,   0 ],
-  lightRed :     [ 255,  51,   0 ],
+  red :          [ 255, 0, 0 ],
+  lightRed :     [ 255, 51, 0 ],
 
-  green :        [ 0,   255,   0 ],
-  lightGreen :   [ 51,  204,  51 ],
+  green :        [ 0, 255, 0 ],
+  lightGreen :   [ 51, 204, 51 ],
 
-  yellow :       [ 255, 153,  51 ],
-  lightYellow :  [ 255, 255,  0 ],
+  yellow :       [ 255, 153, 51 ],
+  lightYellow :  [ 255, 255, 0 ],
 
-  blue :         [ 0,     0, 255 ],
-  lightBlue :    [ 26,  140, 255 ],
+  blue :         [ 0, 0, 255 ],
+  lightBlue :    [ 26, 140, 255 ],
 
-  magenta :      [ 204,   0, 204 ],
-  lightMagenta : [ 255,   0, 255 ],
+  magenta :      [ 204, 0, 204 ],
+  lightMagenta : [ 255, 0, 255 ],
 
-  cyan :         [ 0,   204, 255 ],
-  lightCyan :    [ 0,   255, 255 ],
+  cyan :         [ 0, 204, 255 ],
+  lightCyan :    [ 0, 255, 255 ],
 }
 
 // --
