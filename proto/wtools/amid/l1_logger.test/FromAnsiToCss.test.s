@@ -9,15 +9,15 @@ if( typeof module !== 'undefined' )
   // require( '../../l9/logger/FromAnsiToCss.s' );
   require( '../l1_logger/FromAnsiToCss.s' );
 
-  let _ = _global_.wTools;
+  const _ = _global_.wTools;
 
   _.include( 'wTesting' );
 
 }
 
-let _ = _global_.wTools;
-let Parent = wTools.Testing;
-let Self = {};
+const _ = _global_.wTools;
+const Parent = wTools.Testing;
+const Proto = {};
 
 //
 
@@ -67,7 +67,7 @@ function trivial( test )
 
 //
 ``
-var Proto =
+const Proto =
 {
 
   name : 'Tools.logger.ForBrowser',
@@ -84,7 +84,7 @@ var Proto =
 //
 
 _.mapExtend( Self, Proto );
-Self = wTestSuite( Self );
+const Self = wTestSuite( Proto );
 if( typeof module !== 'undefined' && !module.parent )
 wTester.test( Self.name );
 
