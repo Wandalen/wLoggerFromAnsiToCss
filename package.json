@@ -1,50 +1,38 @@
 {
-  "name": "wloggerfromansitocss",
-  "version": "0.4.262",
-  "engine": "node >= 10.0.0",
-  "description": "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.",
-  "author": "Kostiantyn Wandalen <wanalen@01.school>",
-  "contributors": [
-    {
-      "name": "Kostiantyn Wandalen",
-      "email": "wanalen@01.school"
-    },
-    {
-      "name": "Volodymyr M.",
-      "email": "volodymyr.migdal@gmail.com"
-    }
+  "name" : "wloggerfromansitocss",
+  "version" : "0.4.263",
+  "engine" : "node >= 10.0.0",
+  "description" : "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.",
+  "author" : "Kostiantyn Wandalen <wanalen@01.school>",
+  "contributors" :
+  [
+    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@01.school" },
+    { "name" : "Volodymyr M.", "email" : "volodymyr.migdal@gmail.com" }
   ],
-  "license": "MIT",
-  "main": "proto/wtools/amid/l1_logger/FromAnsiToCss.s",
-  "files": [
-    "proto/wtools/amid/l1_logger",
-    "proto/wtools/Tools.s",
-    "out",
-    "proto/node_modules"
-  ],
-  "scripts": {
-    "test": "wtest .run 'proto/**' rapidity:-3",
-    "docgen": "wdocgen proto"
+  "license" : "MIT",
+  "main" : "/pro/module/wLoggerFromAnsiToCss/proto/node_modules/wloggerfromansitocss",
+  "files" : [ "proto/wtools/amid/l1_logger", "proto/wtools/Tools.s", "out", "proto/node_modules" ],
+  "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/Wandalen/wLoggerFromAnsiToCss.s.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wandalen/wLoggerFromAnsiToCss.s.git"
+  "bugs" :
+  {
+    "url" : "https://github.com/Wandalen/wLoggerFromAnsiToCss.s/issues"
   },
-  "bugs": {
-    "url": "https://github.com/Wandalen/wLoggerFromAnsiToCss.s/issues"
+  "dependencies" :
+  {
+    "wFiles" : "delta",
+    "wLogger" : "delta",
+    "wTools" : "delta",
+    "ansicolor" : "1.1.93",
+    "has-ansi" : "4.0.1"
   },
-  "dependencies": {
-    "wFiles": "delta",
-    "wLogger": "delta",
-    "wTools": "delta",
-    "ansicolor": "1.1.93",
-    "has-ansi": "4.0.1"
-  },
-  "devDependencies": {
-    "eslint": "7.1.0",
-    "wTesting": "delta"
-  },
-  "keywords": [
+  "devDependencies" : { "eslint" : "7.1.0", "wTesting" : "delta" },
+  "keywords" :
+  [
     "wTools",
     "logger",
     "logging",
