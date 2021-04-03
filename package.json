@@ -1,6 +1,6 @@
 {
   "name" : "wloggerfromansitocss",
-  "version" : "0.4.263",
+  "version" : "0.4.264",
   "engine" : "node >= 10.0.0",
   "description" : "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -10,7 +10,7 @@
     { "name" : "Volodymyr M.", "email" : "volodymyr.migdal@gmail.com" }
   ],
   "license" : "MIT",
-  "main" : "/pro/module/wLoggerFromAnsiToCss/proto/node_modules/wloggerfromansitocss",
+  "main" : "proto/node_modules/wloggerfromansitocss",
   "files" : [ "proto/wtools/amid/l1_logger", "proto/wtools/Tools.s", "out", "proto/node_modules" ],
   "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
   "repository" :
