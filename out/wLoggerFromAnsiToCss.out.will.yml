@@ -1540,6 +1540,4 @@ module:
       ../.im.will.yml:
         hash: 1f8e49e2d27bd39ab27d44ad11487a9d
         size: 5312
-      wLoggerFromAnsiToCss.out.will.yml:
-        hash: 0c9a2051de46051ad25a55cf4817d8b6
-        size: 39821
+      wLoggerFromAnsiToCss.out.will.yml: *ref_0
